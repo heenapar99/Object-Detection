@@ -164,7 +164,7 @@ class Detection:
         while run:
             start_time = time.perf_counter()
             _, frame = camera.read()
-            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             results = self.score_frame(frame)
             frame = self.plot_boxes(results, frame)
             end_time = time.perf_counter()
