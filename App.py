@@ -186,7 +186,7 @@ class Detection:
         
         
 # Create a new object and execute.
-detector = Detection(capture_index=0, model_name="C:\\Users\\heena\\Desktop\\project1\\best10.pt")
+detector = Detection(capture_index=0, model_name="best10.pt")
 detector()
 
 
